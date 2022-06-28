@@ -6,42 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <div class ="container">
     <div class="motherPart">
         <div class="display">
+            <div class = "previousNum"></div>
+            <div class = "currentNum"></div>
         </div>
         <div class="buttons">
             <div class="clearD">
-                <button>clear</button>
-                <button>delete</button>
+                <button class="clear">clear</button>
+                <button class="delete">delete</button>
             </div>
             <div class="numO">
                 <div class="first">
-                    <button>7</button>
-                    <button>8</button> 
-                    <button>9</button> 
-                    <button>÷</button> 
+                    <button class="btn">7</button>
+                    <button class="btn">8</button> 
+                    <button class="btn">9</button> 
+                    <button class="oper"> ÷</button> 
                 </div>
                 <div class="second">   
-                    <button>4</button> 
-                    <button>5</button> 
-                    <button>6</button> 
-                    <button>x</button> 
+                    <button class="btn">4</button> 
+                    <button class="btn">5</button> 
+                    <button class="btn">6</button> 
+                    <button class="oper">x</button> 
                 </div>
                 <div class="third"> 
-                    <button>1</button> 
-                    <button>2</button> 
-                    <button>3</button> 
-                    <button>-</button> 
+                    <button class="btn">1</button> 
+                    <button class="btn">2</button> 
+                    <button class="btn">3</button> 
+                    <button class="oper">-</button> 
                 </div>
                 <div class="fourth">
-                    <button>.</button> 
-                    <button>0</button> 
-                    <button>=</button> 
-                    <button>+</button>  
+                    <button class="dec">.</button> 
+                    <button class="btn">0</button> 
+                    <button class="equal">=</button> 
+                    <button class="oper">+</button>  
                 </div>   
             </div>
         </div>
@@ -49,4 +51,5 @@
 </div> 
     
 </body>
+<script src="script.js" defer></script>
 </html>
